@@ -1,0 +1,27 @@
+<button (click)="load10restourantes()">Carica 10 ristoranti</button>
+
+<div *ngFor="let restourante of results">
+  <hr>
+  <h1>  Nome: {{restourante.name}}</h1>
+  <p>  Città: {{restourante.borough}}</p>
+  <p>  Tipo di cucina: {{restourante.cuisine}}</p>
+</div>
+
+<button (click)="load10restourantesbrooklyn()">ristoranti a Brooklyn</button>
+
+<div *ngFor="let restourante of results">
+  <hr>
+  <h1>  Nome: {{restourante.name}}</h1>
+  <p>  Città: {{restourante.borough}}</p>
+  <p>  Tipo di cucina: {{restourante.cuisine}}</p>
+</div>
+
+<button (click)="load10restouranteshamburgers()">ristoranti che cucinano hamburgers</button>
+
+<div *ngFor="let restourante of results">
+  <hr>
+  <h1>  Nome: {{restourante.name}}</h1>
+  <p>  Città: {{restourante.borough}}</p>
+  <p>  Tipo di cucina: {{restourante.cuisine}}</p>
+</div>
+
